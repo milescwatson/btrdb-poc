@@ -8,8 +8,8 @@ var mysql = require('mysql2/promise'),
 	connectionLimit: 10,
 	queueLimit: 0
     },
-    restaurantN = 1000,
-    couponN = 1000;
+    restaurantN = 8,
+    couponN = 20;
 
 var insertRandomData = async function(){
 	const connection = await mysql.createConnection(dbCredentials);
@@ -61,3 +61,4 @@ var clearDatabase = async function(){
 insertRandomData()
 //getRestaurantData()
 //getCouponData()
+//clearDatabase()
