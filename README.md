@@ -62,6 +62,8 @@ Note: use 'uu' instead of 'uuid' as the docs show to create streams
 Upon installing, it is necceary to modify the `create` function, replacing it with the code from the newest btrdb python code
 `/usr/local/lib/python3.8/dist-packages/btrdb4/endpoint.py`
 
+Virtualbox development environment: https://mw-main.s3.amazonaws.com/btrdb-vm.zip
+
 # Links
 ## Repos
 https://github.com/BTrDB/mr-plotter
