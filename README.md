@@ -18,7 +18,7 @@ After cloning, install dependencies:
 
 ### Launch Server
 To launch server, go to directory:
-`/projects/btrdb-poc/smartgridstore`
+`/projects/btrdb-poc/smartgridstore/devmachine`
 and run
 ```
 source ./environment.sh
@@ -55,7 +55,7 @@ BTrDB HTTP swagger UI is on http://127.0.0.1:9000/swag
 
 ## Python btrdb API
 
-Install specific version: `pip3 install btrdb==4.15.9`
+Install specific version: `pip3 install btrdb==4.11.2`
 Import using `import btrdb4`
 Note: use 'uu' instead of 'uuid' as the docs show to create streams
 

@@ -21,3 +21,10 @@ CREATE TABLE `daily_coupon_redemptions_per_restaurant` (
   `redemption_count` int(11) DEFAULT '0',
   PRIMARY KEY (`coupon_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- DROP TABLE IF EXISTS `restaurants`.`daily_coupon_redemptions_per_restaurant`;
+
+-- stream of coupon redemptions, grouped into hours 
+-- CREATE TABLE `coupon_redemptions` (
+  -- DATETIME NOT NULL
+-- )
